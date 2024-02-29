@@ -1,0 +1,91 @@
+html, body {
+  margin: 20px;
+  padding: 0;
+  background-color: #202B3C;
+  color: #fff;
+
+}
+
+h1 {
+  padding: 0;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+h3 {
+  color: grey;
+  font-size: 18px;
+  padding: 0;
+  margin:10px 0;
+  font-size: 19px;
+}
+
+em {
+  color: #4ADF86;
+}
+
+.main-container
+
+/* header */
+.upper-container {
+  width: 400px;
+  /*border: 1px red solid; */
+}
+
+/* Icon */
+
+.value {
+  /*border: 1px solid #fff; */
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.generate {
+  background-color: #10B981;
+  background-image: url("icon.png");
+  background-repeat: no-repeat;
+  background-position: 7% 49%;
+  padding:  14px 15px 14px 45px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 17px
+}
+
+#number-input {
+  margin-left: 75px;
+  padding: 10px 5px;
+  font-size: 18px;
+  width: 70px;
+  height: 24px;
+  background-color: #D1D5DB;
+  border: 0;
+  border-radius: 3px;
+}
+
+#password-length {
+  font-size: 15px;
+  color: #9F1239;
+  margin: 3px 12px;
+}
+
+#line {
+  width: 565px;
+  margin: 35px 0;
+}
+
+.lower-container {
+   /* border: 1px solid white; */
+   width: 565px
+}
+
+.password-result {
+  background-color: #273549;
+  color: #55F991;
+  width: 260px;
+  height: 39px;
+  margin: 15px 10px;
+  border-radius: 6px;
+  border:0;
+}
